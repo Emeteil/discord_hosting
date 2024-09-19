@@ -1,0 +1,12 @@
+host: "0.0.0.0"
+port: 8000
+
+environment_variables:
+  - "flask_secret"
+  - "discord_webhooks_url"
+  - "admin_token"
+
+disbox_server: "https://disbox-server.fly.dev"
+
+load_dotenv: true
+debug: false
